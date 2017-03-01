@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="buttonStyleMain" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:width">80sp</item>
+        <item name="android:textSize">@dimen/boton_text_size</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <style name="currencyLanguage" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#343434</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/language_text_size</item>
+        <item name="android:background">@color/centerDetect</item>
+    </style>
+    <style name="textLanguage" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">#17B0EF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="paddingsContainer">
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+    <style name="tittleSettings">
+        <item name="android:padding">@dimen/tittle_settings</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tittle_settings</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tittleSettingsSymbol">
+        <item name="android:paddingTop">@dimen/tittle_settings_symbol</item>
+        <item name="android:paddingBottom">@dimen/tittle_settings_symbol</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tittle_settings</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="pop_up_full_tittle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">@dimen/min_margin</item>
+        <item name="android:layout_marginTop">@dimen/btn_height</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="pop_up_enjoy">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">@dimen/min_margin</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="pop_up_change">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/border_boton</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

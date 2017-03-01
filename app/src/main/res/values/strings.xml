@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MM: Rate Us</string>
+    <string name="romerock">Rome Rock</string>
+    <string name="romerock_site">http://www.romerock.com</string>
+    <string name="thank_you">
+        <![CDATA[
+            <style>
+                .text{
+                    font-size:14px;
+                    color:#FFFFFF;
+                    line-height:20px;
+                }
+            </style>
+            <div align=justify class="text">Thank you for downloading our Mini Module! Follow us on GitHub for more cool Mini Modules that will help you to make an awesome app a lot easier.</div>
+        ]]></string>
+    <string name="tittle_header">Mini Module: Rate Us</string>
+    <string name="follow_us_twitter">https://twitter.com/RomeRock_Apps</string>
+    <string name="follow_us_twitter_profile">twitter://user?screen_name=RomeRock_Apps</string>
+    <string name="follow_us_facebook">https://www.facebook.com/RomeRock-App-Studio-337180269970605</string>
+    <string name="follow_us_facebook_profile">fb://page/337180269970605</string>
+    <string name="follow_us_git_hub">https://github.com/RomeRock</string>
+    <string name="romerock_page">http://romerock.com</string>
+    <string name="rateus">\tLAST RATE\t</string>
+    <string name="preferences_name">MM_ROMEROCK</string>
+    <string name="popup_content_tittle">Rate this app</string>
+    <string name="select_rate">Rate</string>
+    <string name="pop_up_later">Maybe later</string>
+    <string name="rate_now">Rate now</string>
+    <string name="pop_up_rate_subject">MM: Rate Us - Feedback</string>
+    <string name="choose_email_error">There are no email clients installed.</string>
+    <string name="example_app_in_play">com.romerock.apps.utilities.tipcalculator</string>
+    <string name="enjoy">Are you enjoying it? Let us know.</string>
+    <string name="not_rate">You haven’t rate this app yet.</string>
+    <string name="preferences_rate_bar">Rating</string>
+</resources>
