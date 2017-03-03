@@ -11,13 +11,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
+    android:background="@color/principal_content"
     tools:showIn="@layout/activity_main">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/btn_detect"
-        android:background="@color/white">
+        android:background="@drawable/border_content">
 
         <ImageView
             android:id="@+id/imageView"

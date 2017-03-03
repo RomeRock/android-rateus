@@ -3,6 +3,8 @@
     <color name="colorPrimary">#17B0EF</color>
     <color name="colorPrimaryDark">#1976d2</color>
     <color name="colorAccent">#0288D1</color>
+    <color name="principal_content">#EEF2F4</color>
+    <color name="principal_border_content">#AAADAF</color>
     <color name="drawable">#2A3033</color>
     <color name="drawableHeader">#495155</color>
     <color name="white">#FFFFFF</color>
